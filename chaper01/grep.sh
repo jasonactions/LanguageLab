@@ -19,9 +19,15 @@ grep "0\{1,3\}" /tmp/passwd
 # 匹配两个root之间任意字符的行,\(\)表示保留空间
 grep "\(root\).*\1" /tmp/passwd
 
+# egrep
+# 匹配01,02
 egrep "0{1,2}" /tmp/passwd
+# 匹配0个或多个0
 egrep "0+" /tmp/passwd
+# 匹配root或admin
 egrep "(root|admin)" /tmp/passwd
+# -o仅显示匹配内容
+grep Available /proc/meminfo | egrep -o "[0-9]+"
 
 # gnu规范
 # 匹配i开头或结尾
