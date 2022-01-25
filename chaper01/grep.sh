@@ -18,3 +18,7 @@ grep "sbin/[^n]" /tmp/passwd
 grep "0\{1,3\}" /tmp/passwd 
 # 匹配两个root之间任意字符的行,\(\)表示保留空间
 grep "\(root\).*\1" /tmp/passwd
+
+egrep "0{1,2}" /tmp/passwd
+egrep "0+" /tmp/passwd
+egrep "(root|admin)" /tmp/passwd
