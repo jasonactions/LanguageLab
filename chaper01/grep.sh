@@ -22,3 +22,14 @@ grep "\(root\).*\1" /tmp/passwd
 egrep "0{1,2}" /tmp/passwd
 egrep "0+" /tmp/passwd
 egrep "(root|admin)" /tmp/passwd
+
+# gnu规范
+# 匹配i开头或结尾
+grep "i\b" /tmp/passwd
+# 匹配非字母，数字，下划线
+grep "\W" /tmp/passwd
+#  匹配字母，数字，下划线
+grep "\ww" /tmp/passwd
+# -P为兼容perl的正则，匹配任意数字
+grep -P --color "\d" /etc/passwd
+
