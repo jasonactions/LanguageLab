@@ -62,4 +62,5 @@ test 3 -ne 3 && echo Y || echo N
 [[ b > A ]] && echo Y || echo N
 # [[]]是模式匹配，支持通配符，[]只是判断字符串是否一模一样
 [[ $name == J* ]] && echo Y || echo N
+# []不支持&& || 等多个条件判断，[[]]支持
 [[ a == a && (b == b || c == d)]] && echo Y || echo N

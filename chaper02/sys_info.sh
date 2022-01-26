@@ -7,6 +7,7 @@
 local_time=$(date +"%Y%m%d %H:%M:%S")
 local_ip=$(ifconfig eth0 | grep netmask | tr -s " " | cut -d" " -f3)
 free_mem=$(cat /proc/meminfo |grep Avai |tr -s " " | cut -d" " -f2)
+# /$表示挑选出以/结尾的行
 free_disk=$(df | grep "/$" | tr -s " " | cut -d' ' -f4)
 cpu_load=$(cat /proc/loadavg | cut -d' ' -f3)
 login_user=$(who | wc -l)
