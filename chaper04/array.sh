@@ -32,3 +32,27 @@ root=($(df / | tail -n +2))
 echo ${root[*]}
 echo ${root[1]}
 
+# 关联数组
+declare -A man
+man[name]=TOM
+man[age]=26
+man[addr]=zhuhai
+echo ${man[*]}
+unset man[age]
+unset man
+
+# 遍历关联数组
+name=(Jason Tom Grace Lora Sophia)
+for i in "${name[@]}"
+do 
+	echo $i
+done
+
+echo `\n`
+
+i=0
+while [ $i -le ${#name[@]} ]
+do 
+	echo ${name[i]}
+	let i++
+done
