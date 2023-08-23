@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # 定义数组
 name[0]="A"

@@ -16,6 +16,7 @@ do
     clear
     echo "---机选双色球---"
     tmp=$[RANDOM%33+1]
+    #-q：不显示，w，word
     echo "$red_ball" | grep -q -w $tmp && continue
     red_ball+=" $tmp"
     echo -en "$RED_COL$red_ball$NONE_COL"

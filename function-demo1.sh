@@ -1,4 +1,9 @@
 #!/bin/bash
+#函数有两种格式：
+#func(){
+#}
+#funciton func() {
+}
 #功能描述(Description):函数中变量的作用域示例之全局变量.
 
 #默认定义的变量为当前Shell全局有效.

@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Fibonacci	for_fibo_v2.sh	/^Fibonacci() {$/;"	f
+anon_config	chaper06/vsftpd.sh	/^anon_config(){ $/;"	f
+anon_sub_menu	chaper06/vsftpd.sh	/^anon_sub_menu(){$/;"	f
+backup	chaper05/clobber.sh	/^backup(){$/;"	f
+bar	zh_progress_bar1.sh	/^bar(){$/;"	f
+bar	zh_progress_bar2.sh	/^bar(){$/;"	f
+bar	zh_progress_bar3.sh	/^bar(){$/;"	f
+bar	zh_progress_bar4.sh	/^bar() {$/;"	f
+bar	zh_progress_bar5.sh	/^bar() {$/;"	f
+break_line	puzzle.sh	/^break_line(){$/;"	f
+bubble	proc_buble_sort.sh	/^bubble() {$/;"	f
+check_services	func_check_service.sh	/^function check_services() {$/;"	f
+clear_blockip	chaper07/blockip.sh	/^clear_blockip(){$/;"	f
+clear_screen	chaper05/mouse.sh	/^clear_screen(){$/;"	f
+conf_nginx_systemd	lnmp.sh	/^conf_nginx_systemd(){$/;"	f
+create_ftpuser	chaper06/vsftpd.sh	/^create_ftpuser(){$/;"	f
+delete_ftpuser	chaper06/vsftpd.sh	/^delete_ftpuser(){$/;"	f
+demo	function-demo1.sh	/^function demo() {$/;"	f
+demo	function-demo2.sh	/^function demo() {$/;"	f
+demo	function-demo3.sh	/^function demo() {$/;"	f
+demo	function-demo4.sh	/^function demo() {$/;"	f
+demo1	function-demo5.sh	/^demo1() {$/;"	f
+demo2	function-demo5.sh	/^demo2(){$/;"	f
+demo3	function-demo5.sh	/^demo3() {$/;"	f
+draw_map	chaper05/mouse.sh	/^draw_map(){$/;"	f
+draw_mouse	chaper05/mouse.sh	/^draw_mouse(){$/;"	f
+draw_player	chaper05/mouse.sh	/^draw_player(){$/;"	f
+fifteen_minutes	chaper07/blockip.sh	/^fifteen_minutes(){$/;"	f
+five_minutes	chaper07/blockip.sh	/^five_minutes(){$/;"	f
+get_key	chaper05/mouse.sh	/^get_key(){$/;"	f
+get_line	puzzle.sh	/^get_line(){$/;"	f
+get_word	puzzle.sh	/^get_word(){$/;"	f
+init_config	chaper06/vsftpd.sh	/^init_config(){$/;"	f
+init_mysql8	lnmp.sh	/^init_mysql8(){$/;"	f
+install_deps	lnmp.sh	/^install_deps(){$/;"	f
+install_dhcp	chaper06/dhcp.sh	/^install_dhcp(){$/;"	f
+install_mysql8	lnmp.sh	/^install_mysql8(){$/;"	f
+install_nginx	lnmp.sh	/^install_nginx(){$/;"	f
+install_php7	lnmp.sh	/^install_php7(){$/;"	f
+install_vsftpd	chaper06/vsftpd.sh	/^install_vsftpd(){$/;"	f
+lock_check	chaper05/clobber.sh	/^lock_check(){$/;"	f
+menu	chaper06/vsftpd.sh	/^menu(){$/;"	f
+modify_conf	chaper06/dhcp.sh	/^modify_conf(){$/;"	f
+multi_ping	for_multi_ping_v3.sh	/^multi_ping() {$/;"	f
+multi_ping	func_multi_ping_v1.sh	/^multi_ping() {$/;"	f
+multi_ping	func_multi_ping_v2.sh	/^multi_ping() {$/;"	f
+now_time	chaper05/clock.sh	/^now_time(){$/;"	f
+one_minute	chaper07/blockip.sh	/^one_minute(){$/;"	f
+port_count	chaper07/netstat.sh	/^port_count(){$/;"	f
+print_info	chaper07/netstat.sh	/^print_info(){$/;"	f
+print_punct	chaper05/clock.sh	/^print_punct(){$/;"	f
+print_time	chaper05/clock.sh	/^print_time(){$/;"	f
+print_time	chaper05/countdown.sh	/^print_time(){$/;"	f
+print_usage	usage.sh	/^function print_usage() {$/;"	f
+proc_exit	chaper05/mouse.sh	/^proc_exit(){$/;"	f
+proc_manager	chaper06/vsftpd.sh	/^proc_manager(){$/;"	f
+quick_sort	func_quick_sort.sh	/^quick_sort(){$/;"	f
+randpass	chaper05/randpass.sh	/^randpass(){$/;"	f
+remote_count	chaper07/netstat.sh	/^remote_count(){$/;"	f
+service_sub_menu	chaper06/vsftpd.sh	/^service_sub_menu(){$/;"	f
+tcp_estab	chaper07/netstat.sh	/^tcp_estab(){$/;"	f
+tcp_listen	chaper07/netstat.sh	/^tcp_listen(){$/;"	f
+tcp_syn_recv	chaper07/netstat.sh	/^tcp_syn_recv(){$/;"	f
+tcp_time_wait	chaper07/netstat.sh	/^tcp_time_wait(){$/;"	f
+tcp_time_wait1	chaper07/netstat.sh	/^tcp_time_wait1(){$/;"	f
+tcp_time_wait2	chaper07/netstat.sh	/^tcp_time_wait2(){$/;"	f
+tcp_total	chaper07/netstat.sh	/^tcp_total(){$/;"	f
+test_yum	chaper06/dhcp.sh	/^test_yum(){$/;"	f
+test_yum	chaper06/vsftpd.sh	/^test_yum(){$/;"	f
+test_yum	lnmp.sh	/^test_yum(){$/;"	f
+translate_time	chaper05/countdown.sh	/^translate_time(){$/;"	f
+udp_total	chaper07/netstat.sh	/^udp_total(){$/;"	f
+unix_total	chaper07/netstat.sh	/^unix_total(){$/;"	f
